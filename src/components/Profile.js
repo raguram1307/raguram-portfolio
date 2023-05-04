@@ -18,7 +18,7 @@ const Profile = () => {
           <Heading fontWeight="extrabold" color="cyan.500" size="4xl">
             3+
           </Heading>
-          <Text fontSize="2xl" color="grey.400">
+          <Text fontSize={{base: '24px', md: '40px', lg: '56px' }} color="grey.400">
             Years of Experience
           </Text>
         </Box>
@@ -37,7 +37,7 @@ const Profile = () => {
               _hover={{ bg: "green.400" }}
             >
               <Icon color="black" p="4" w="24" h="24" as={DiReact} />
-              <Text fontWeight="semibold" fontSize="xl" color="black" p="4">
+              <Text fontWeight="semibold" fontSize={{ base: '24px', md: '40px', lg: '56px' }} color="black" p="4">
                 React
               </Text>
             </Flex>
@@ -53,7 +53,7 @@ const Profile = () => {
               _hover={{ bg: "green.400" }}
             >
               <Icon color="black" p="4" w="24" h="24" as={DiPython} />
-              <Text fontWeight="semibold" fontSize="xl" color="black" p="4">
+              <Text fontWeight="semibold" fontSize={{ base: '24px', md: '40px', lg: '56px' }} color="black" p="4">
                 Python
               </Text>
             </Flex>
@@ -69,7 +69,7 @@ const Profile = () => {
               _hover={{ bg: "green.400" }}
             >
               <Icon color="black" p="4" w="24" h="24" as={DiPostgresql} />
-              <Text fontWeight="semibold" fontSize="xl" color="black" p="4">
+              <Text fontWeight="semibold" fontSize={{ base: '24px', md: '40px', lg: '56px' }} color="black" p="4">
                 Postgresql
               </Text>
             </Flex>

@@ -49,7 +49,7 @@ const Header = () => {
           >
             Raguram Elango
           </Text>
-          <Text color={isDark ? "gray.200" : "gray.500"}>
+          <Text color={ isDark ? "gray.200" : "gray.500"}>
             Front end developer at Cognizant.
           </Text>
           <Button mt={8} colorScheme="blue">Hire Me</Button>

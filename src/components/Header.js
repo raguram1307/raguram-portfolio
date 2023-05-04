@@ -61,7 +61,7 @@ const Header = () => {
           boxShadow="lg"
           boxSize="300px"
           zIndex={1}
-          src="./raguram-portfolio/Raguram.jpg"
+          src="./Raguram.jpg"
           alt="profile pic"
         />
       </Flex>

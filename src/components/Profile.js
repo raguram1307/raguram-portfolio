@@ -15,7 +15,7 @@ const Profile = () => {
         maxWidth={{ base: "100vh", md: "130vh", lg: "130vh", xl: "130vh" }}
       >
         <Box alignSelf="center" px="32" py="16">
-          <Heading fontWeight="extrabold" color="cyan.500" size="4xl">
+          <Heading fontWeight="extrabold" color="cyan.500" fontSize={{base: '24px', md: '40px', lg: '56px' }}>
             3+
           </Heading>
           <Text fontSize={{base: '24px', md: '40px', lg: '56px' }} color="grey.400">

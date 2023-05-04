@@ -13,7 +13,10 @@ const Header = () => {
 
   //For screen responsive im using useMediaQuery component from chakra-ui
   // name the variable as per your choice
-  const [isNotSmallerScreen] = useMediaQuery("(min-width:992px)");
+  const [isNotSmallerScreen] = useMediaQuery([
+    '(min-width: 720px)',
+    '(display-mode: browser)',
+  ]);
 
   return (
     <Stack>

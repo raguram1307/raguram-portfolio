@@ -14,7 +14,7 @@ const Profile = () => {
         w="100%"
         maxWidth={{ base: "100vh", md: "130vh", lg: "130vh", xl: "130vh" }}
       >
-        <Box alignSelf="center" px="32" py="16">
+        <Box width={["100%","50%","25%","15%"]} alignSelf="center" px="32" py="16">
           <Heading fontWeight="extrabold" color="cyan.500" fontSize={{base: '24px', md: '40px', lg: '56px' }}>
             3+
           </Heading>
@@ -22,7 +22,7 @@ const Profile = () => {
             Years of Experience
           </Text>
         </Box>
-        <Box alignSelf={"center"} px="32" py="16">
+        <Box width={["100%","50%","25%","15%"]} alignSelf={"center"} px="32" py="16">
           <Text fontWeight="bold">PowerApps developer in Cognizant.</Text>
           <Flex direction={isNotSmallerScreen ? "row" : "column"} mt={8}>
             <Flex

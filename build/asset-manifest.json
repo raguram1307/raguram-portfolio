@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/raguram-portfolio/static/css/main.e6c13ad2.css",
-    "main.js": "/raguram-portfolio/static/js/main.a333f0b6.js",
+    "main.js": "/raguram-portfolio/static/js/main.bdbb5785.js",
     "index.html": "/raguram-portfolio/index.html",
     "main.e6c13ad2.css.map": "/raguram-portfolio/static/css/main.e6c13ad2.css.map",
-    "main.a333f0b6.js.map": "/raguram-portfolio/static/js/main.a333f0b6.js.map"
+    "main.bdbb5785.js.map": "/raguram-portfolio/static/js/main.bdbb5785.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.a333f0b6.js"
+    "static/js/main.bdbb5785.js"
   ]
 }

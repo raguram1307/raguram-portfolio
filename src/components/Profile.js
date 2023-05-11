@@ -5,7 +5,7 @@ import { Icon } from "@chakra-ui/icon";
 import { DiReact, DiPython, DiPostgresql } from "react-icons/di";
 
 const Profile = () => {
-  const isNotSmallerScreen = useMediaQuery("@media(min-width:50em) and (max-width:60em)");
+  const isNotSmallerScreen = useMediaQuery("@media(min-width:50em) and (max-width:60em){Box {column-count:2;}}");
 
   return (
     <div>

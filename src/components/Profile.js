@@ -14,7 +14,7 @@ const Profile = () => {
         w="100%"
         maxWidth={{ base: "100vh", md: "130vh", lg: "130vh", xl: "130vh" }}
       >
-        <Stack direction={['row','row','row','column']}> 
+        <Stack direction={{base: 'row', lg: 'column'}}> 
         <Box width={["100%","50%","25%","15%"]} alignSelf="center" px="32" py="16">
           
           <Heading fontWeight="extrabold" color="cyan.500" fontSize={{base: '24px', md: '40px', lg: '56px' }}  >

@@ -1,5 +1,5 @@
 import React from "react";
-import { Flex, Box, Heading, Text } from "@chakra-ui/layout";
+import { Flex, Box, Heading, Text, Stack } from "@chakra-ui/layout";
 import { useMediaQuery } from "@chakra-ui/media-query";
 import { Icon } from "@chakra-ui/icon";
 import { DiReact, DiPython, DiPostgresql } from "react-icons/di";
@@ -14,14 +14,19 @@ const Profile = () => {
         w="100%"
         maxWidth={{ base: "100vh", md: "130vh", lg: "130vh", xl: "130vh" }}
       >
+        <Stack direction={['row','row','row','column']}> 
         <Box width={["100%","50%","25%","15%"]} alignSelf="center" px="32" py="16">
-          <Heading fontWeight="extrabold" color="cyan.500" fontSize={{base: '24px', md: '40px', lg: '56px' }}>
+          
+          <Heading fontWeight="extrabold" color="cyan.500" fontSize={{base: '24px', md: '40px', lg: '56px' }}  >
             3+
           </Heading>
+          
           <Text fontSize={{base: '24px', md: '40px', lg: '56px' }} color="grey.400">
             Years of Experience
           </Text>
+          
         </Box>
+        </Stack>
         <Box width={["100%","50%","25%","15%"]} alignSelf={"center"} px="32" py="16">
           <Text fontWeight="bold">PowerApps developer in Cognizant.</Text>
           <Flex direction={isNotSmallerScreen ? "row" : "column"} mt={8}>
